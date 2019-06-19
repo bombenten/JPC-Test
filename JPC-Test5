@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+int a=5,b=2,c=1;
+int n;
+
+int main(){
+	int n;
+
+while(1){
+	printf("\n\nEnter the number of people : ");
+	scanf("%d",&n);
+	 if(n >= 5){
+        printf("\nUse %d Car ", n/a);
+        n = n % 5;
+    } 
+	if(n >= 2){
+        printf("\nUse %d Bike ", n/b);
+        n = n % 2;
+    } 
+	if(n >= 1){
+        printf("\nUse %d Jetpack ", n/c);
+        n = n % 1;
+    }	
+	
+}
+
+	
+}
